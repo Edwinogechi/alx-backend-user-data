@@ -6,7 +6,7 @@ import bcrypt
 
 
 def hash_password(password: str) -> bytes:
-    """Takes a password string and returns a salted, hashed password as a byte string.
+    """Accepts a password string and returns a salted hash byte string.
 
     Args:
         password (str): The password to hash.
